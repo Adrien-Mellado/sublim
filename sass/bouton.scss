@@ -1,0 +1,18 @@
+
+
+#Bt{
+    width: 100%;
+
+   display: flex; 
+   align-items: center;
+   flex-wrap: nowrap;
+   flex-direction: row;
+   justify-content: center;
+
+    .bouton{
+        display: flex;
+        padding: 10px;
+        border-radius: 15px;
+        margin-right: 30px;
+    }
+}

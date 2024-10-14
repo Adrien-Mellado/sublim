@@ -1,0 +1,33 @@
+#Bienvenue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90%;
+
+  h1 {
+    position: relative;
+    margin: 0;
+    font-size: 4em;
+    font-weight: 900;
+    z-index: 1;
+    overflow: hidden;
+    border-style: solid;
+    padding: 10px;
+  }
+  h2 {
+    position: relative;
+    margin: 0;
+    margin-top: 3px;
+    font-size: 2em;
+    font-weight: 900;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+}

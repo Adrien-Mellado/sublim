@@ -1,0 +1,48 @@
+.navbar{
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    
+    a{
+        color: rgb(0, 0, 0);
+       
+    }
+
+    .logo{
+        font-size: 2em;
+    }
+
+    .nav-links  {
+
+        align-items: center ;
+
+        ul{
+            display: flex;
+
+
+        }
+
+        li{
+            margin: 0 25px;
+
+
+            
+            
+           
+        }
+
+
+    }
+    
+   
+ 
+}
+
+a:hover{
+    color: rgb(250, 0, 117);
+}
+
+
