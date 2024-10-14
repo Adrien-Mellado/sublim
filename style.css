@@ -214,5 +214,48 @@ textarea {
     height: 200px;
   }
 }
+@media screen and (max-width: 390px) {
+  #Bienvenue {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+  }
+  #Bienvenue h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  #Bienvenue h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  #Bienvenue .image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .navbar {
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar .nav-links li {
+    margin: 8px 11px;
+  }
+  body {
+    height: 80vh;
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
