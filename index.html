@@ -4,21 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
     <title>Sublim'A.DOL</title>
   </head>
   <body>
-    <nav class="navbar">
-      <a href="#" class="logo"> Sublim'A.DOL</a>
-      <div class="nav-links">
-        <ul>
-          <li class="active"><a href="index.html">Accueil</a></li>
-          <li><a href="apropos.html">A propos</a></li>
-          <li><a href="creation.html">Nos creation</a></li>
-          <li><a href="conatct.html">Contact</a></li>
-        </ul>
-      </div>
-      <img src="img/boutonhamberger.png" alt="" class="menu-hamburger" />
-    </nav>
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="#" class="nav__logo"> <i></i> Sublim'A.DOL </a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__burger"></i>
+            <i class="ri-close-line nav__close"></i>
+          </div>
+        </div>
+
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#" class="nav__link">Accueil</a></li>
+
+            <li><a href="#" class="nav__link">Entreprise</a></li>
+
+            <li><a href="#" class="nav__link">Tarifs</a></li>
+
+            <li><a href="#" class="nav__link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <!--<section id="Bienvenue">
       <h1>Bienvenue sur Sublim'A.DOL</h1>
