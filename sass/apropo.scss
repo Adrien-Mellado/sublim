@@ -1,0 +1,23 @@
+#apropos {
+  height: 400px;
+  background-color: hsl(36, 97%, 27%);
+  h2 {
+    margin-left: 20px;
+    margin-top: 30px;
+    color: white;
+    padding: 20px;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.562);
+  }
+
+  p {
+    font-size: 20px;
+    padding: 5px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.562);
+  }
+}
