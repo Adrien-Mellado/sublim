@@ -251,7 +251,7 @@ a {
   --header-height: 3.5rem;
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --black-color: hsl(36, 97%, 27%);
+  --black-color: hsl(36, 97%, 39%);
   --black-color-light: hsla(44, 97%, 12%, 0.219);
   --black-color-lighten: hsl(44, 100%, 23%);
   --white-color: #fff;
@@ -307,7 +307,7 @@ a {
 
 #apropos {
   height: 550px;
-  background-color: hsl(36deg, 97%, 27%);
+  background-color: hsl(36deg, 97%, 39%);
 }
 #apropos h2 {
   margin-left: 20px;
@@ -327,6 +327,44 @@ a {
   color: white;
   line-height: 50px;
   text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.562);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 426px) {
+  h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .bloc_tarif {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  .list_nom {
+    display: flex;
+    list-style: none;
+    list-style: none;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .list_prix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  li {
+    list-style-type: none;
+    margin-top: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
