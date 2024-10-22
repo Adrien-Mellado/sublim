@@ -4,6 +4,7 @@
   h2 {
     display: flex;
     text-align: center;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.562);
 
     justify-content: center;
     margin-top: 10px;
@@ -25,6 +26,7 @@
     align-items: flex-start;
     //margin-left: 10px;//
     font-size: 18px;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.562);
     font-weight: bold;
   }
 
@@ -35,6 +37,7 @@
     font-size: 18px;
     font-weight: bold;
     //margin-left: 10px;//
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.562);
   }
 
   li {
@@ -44,5 +47,9 @@
     // width: 100%;
     // padding: 10px;
     // text-align: center;
+  }
+
+  .red {
+    color: red;
   }
 }

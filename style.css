@@ -335,6 +335,7 @@ a {
   h2 {
     display: flex;
     text-align: center;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.562);
     justify-content: center;
     margin-top: 10px;
   }
@@ -352,6 +353,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     font-size: 18px;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.562);
     font-weight: bold;
   }
   .list_prix {
@@ -360,10 +362,49 @@ a {
     justify-content: center;
     font-size: 18px;
     font-weight: bold;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.562);
   }
   li {
     list-style-type: none;
     margin-top: 10px;
+  }
+  .red {
+    color: red;
+  }
+}
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 426px) {
+  #Contact {
+    height: 200px;
+  }
+  #Contact h2 {
+    display: flex;
+    text-align: center;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.562);
+    justify-content: center;
+    margin-top: 30px;
+    background-color: hsl(36deg, 97%, 39%);
+  }
+  .bloc_contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 0px;
+    background-color: hsl(36deg, 97%, 39%);
+    height: 200px;
+  }
+  .list_label {
+    display: flex;
+    list-style: none;
+    list-style: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 18px;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.562);
+    font-weight: bold;
   }
 }
 
