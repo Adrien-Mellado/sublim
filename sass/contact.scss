@@ -2,38 +2,71 @@
 /* For small devices */
 @media screen and (max-width: 426px) {
   #Contact {
-    height: 200px;
+    background-color: hsl(36, 97%, 39%);
+
+    height: 520px;
+
     h2 {
       display: flex;
       text-align: center;
       text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.562);
       justify-content: center;
       margin-top: 30px;
-      background-color: hsl(36, 97%, 39%);
+      margin-bottom: 10px;
     }
   }
 
-  .bloc_contact {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 0px;
-    background-color: hsl(36, 97%, 39%);
+  form {
+    width: 100%;
+    text-align: center;
 
-    height: 200px;
+    .input-box {
+      display: flex;
+      flex-direction: row-reverse;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
   }
 
-  .list_label {
-    display: flex;
-    list-style: none;
-    list-style: none;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    //margin-left: 10px;//
-    font-size: 18px;
-    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.562);
-    font-weight: bold;
+  .item {
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 12px 0;
+  }
+
+  .item::placeholder {
+    color: rgb(0, 0, 0);
+  }
+
+  .input-field {
+    width: 48.5%;
+  }
+
+  .textarea-field {
+    padding: 0px 10px;
+    .item {
+      resize: none;
+    }
+  }
+
+  button {
+    padding: 12px 32px;
+    background: rgb(211, 208, 199);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 5px;
   }
 }
